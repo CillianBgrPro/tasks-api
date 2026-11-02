@@ -10,7 +10,7 @@ def test_normalize_title_empty():
 
 
 def test_is_valid_title_accepts_normal_title():
-    assert is_valid_title("TP1") is True
+    assert is_valid_title("Faire le TP1") is True
 
 
 def test_is_valid_title_rejects_empty():
